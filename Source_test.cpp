@@ -642,7 +642,7 @@ int main(int argc, char** argv)
 	int menuMain, menuBackground, colorsC1, colorsC2;
 
 	glutInit(&argc, argv); // initializare GLUT
-	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB); // se utilizeaza un singur buffer | modul de colorare RedGreenBlue (= default)
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB); // modul de colorare RedGreenBlue (= default)
 	glutInitWindowPosition(100, 100); // pozitia initiala a ferestrei de vizualizare (in coordonate ecran)
 	glutInitWindowSize(1700, 900); // dimensiunile ferestrei 
 	glutCreateWindow("Trafic"); // creeaza fereastra 
